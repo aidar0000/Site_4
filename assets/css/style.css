@@ -191,3 +191,231 @@ body{
 }
 
 /* prom */
+
+.prom{
+    background: url('../img/photo/back3.png') no-repeat center center / cover;
+}
+.prom_wrapper{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.prom_text{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+.prom_text2{
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #575445;
+}
+.prom_text3{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #575445;
+}
+.prom_icons{
+    margin-top: 70px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    display: flex;
+}
+.prom_icon{
+    text-align: center;
+}
+.prom_icon_text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #575445;
+}
+.prom_icon_text2{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #575445;
+}
+
+/* store */
+
+.store_wrapper{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.store_text{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+.store_text2{
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #575445;
+}
+.store_text3{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #575445;
+}
+.store_photo{
+    text-align: center;
+    width: 379px;
+    height: 473px;
+    background: url('../img/photo/access.png');
+}
+.store_photo2{
+    border-radius: 10px;
+    text-align: center;
+    width: 379px;
+    height: 473px;
+    background: url('../img/photo/apparel.png');
+}
+.store_photo3{
+    border-radius: 10px;
+    text-align: center;
+    width: 379px;
+    height: 473px;
+    background: url('../img/photo/climb.png');
+}
+.store_photo4{
+    text-align: center;
+    width: 379px;
+    height: 473px;
+    background: url('../img/photo/headwear.png');
+}
+.store_photo5{
+    text-align: center;
+    width: 379px;
+    height: 473px;
+    background: url('../img/photo/hiking.png');
+}
+.store_photo6{
+    text-align: center;
+    width: 379px;
+    height: 473px;
+    background: url('../img/photo/jackets.png');
+}
+.store_photo:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 3px #575445;
+}
+.store_photo2:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 3px #575445;
+}
+.store_photo3:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 3px #575445;
+}
+.store_photo4:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 3px #575445;
+}
+.store_photo5:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 3px #575445;
+}
+.store_photo6:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 3px #575445;
+}
+.store_photos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.store_photo_text{
+    padding-top: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #575445;
+}
+.store_photo_text2{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #575445;
+}
+.store_photo_text3{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #575445;
+}
+.store_photo_text3:hover{
+    text-decoration: overline;
+}
+.photo_end{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* team */
+
+.team{
+    background: url('../img/photo/back5.png') no-repeat center center / cover;
+}
+.team_wrapper{
+    display: flex;
+    justify-content: right;
+    padding-bottom: 40px;
+    padding-top: 520px;
+}
+.team_title{
+    padding: 0 40px;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    margin-right: -100px;
+    background: #292C32;
+    border-radius: 16px;
+    height: 50px;
+    width: 615px;
+}
+.team_text{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+.team_icon{
+    margin-right: 5px;
+}
+
+/* shop */

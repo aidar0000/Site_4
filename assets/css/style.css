@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: "Poppins";
     src: url('../fonts/Poppins-Regular.ttf') format('truetype');
@@ -143,3 +144,50 @@ body{
 
 /* who */
 
+.who{
+    background: url('../img/photo/back2.png') no-repeat center center / cover;
+}
+.who_wrapper{
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+}
+.who_title{
+    margin-left: 70px;
+}
+.who_text{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+.who_text2{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #575445;
+}
+.who_text3{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #575445;
+}
+.who_text4{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #575445;
+}
+.who_text4:hover{
+    text-decoration: overline;
+}
+
+/* prom */

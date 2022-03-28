@@ -414,6 +414,9 @@ body{
     line-height: 12px;
     color: #FFFFFF;
 }
+.team_text:hover{
+    text-decoration: overline;
+}
 .team_icon{
     margin-right: 5px;
 }

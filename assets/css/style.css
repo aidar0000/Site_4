@@ -107,3 +107,39 @@ body{
     background: #FFFFFF;
     border-radius: 9px;
 }
+
+/* exp */
+
+.exp{
+    background: url('../img/photo/back1.png') no-repeat center center/cover;
+}
+.exp_wrapper{
+    padding-top: 218px;
+    padding-bottom: 227px;
+}
+.exp_text{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+.exp_text2{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+.exp_text3{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #CACCD1;
+}
+
+/* who */
+

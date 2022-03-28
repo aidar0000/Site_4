@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Poppins";
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Poppins;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header_wrapper{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_content{
+    display: flex;
+    align-items: center;
+}
+.header_text{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #222222;
+    margin-right: 20px;
+}
+.header_text:hover{
+    text-decoration:overline;
+}
+.header_btns{
+    display: flex;
+    align-items: center;
+}
+.header_logo_btn{
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #575445;
+    border-radius: 6px;
+    width: 143px;
+    height: 44px;
+}
+.header_logo_btn:hover{
+    box-shadow: 0 0 5px #575445;
+}
+.btn_icon{
+    margin-right: 8px;
+}
+.header_logo_btn2{
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #575445;
+    border-radius: 6px;
+    width: 125px;
+    height: 44px;
+    display: flex;
+}
+.header_logo_btn2:hover{
+    box-shadow: 0 0 5px #575445;
+}
+.header_icon_text{
+    width: 20px;
+    margin-left: 8px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    color: #575445;
+    background: #FFFFFF;
+    border-radius: 9px;
+}
